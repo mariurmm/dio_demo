@@ -1,3 +1,4 @@
+// import 'package:dio_demo/dog_pic/random_dog.dart';
 import 'package:dio_demo/random_cat.dart';
 import 'package:flutter/material.dart';
 
@@ -8,12 +9,12 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
      
+      // home: RandomDog(),
       home: RandomCat(),
     );
   }
